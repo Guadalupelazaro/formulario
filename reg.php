@@ -1,5 +1,5 @@
 <?php
-$link = mysql_conenect("http://localhost/phpmyadmin/","root","") or die("<h2>no se encuentra el servidor</h2>");
+$link = mysql_conenect("https://formulario-jesus1993.c9users.io/phpmyadmin/index.php?token=1c7399a5cbffdbcd6f099c013e2acdc6#PMAURL-0:index.php?db=&table=&server=1&target=&token=1c7399a5cbffdbcd6f099c013e2acdc6","root","") or die("<h2>no se encuentra el servidor</h2>");
 $db = mysql_select_db("formulario",$link) or die ("<h2>error de conexiion</h2>");
 
 $clave1  = $_post['clave'];
